@@ -1,6 +1,6 @@
 class Bank
 {
-private int interestRate = 4; 
+private int interestRate = 4100; 
   
 public int getInterestRate()
 {
