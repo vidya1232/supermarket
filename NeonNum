@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class NeonNum
+//A positive integer whose sum of digits of its square is equal to the number itself is called a neon number
+{
+public static void main(String[]args)
+{
+Scanner cc = new Scanner(System.in);
+System.out.println("Enter any postive number");
+int n =cc.nextInt();
+int suq = n*n;
+int c,q=0;
+while(suq>0)
+{
+	
+	c= suq%10;
+	q= q+c;
+	suq= suq/10;
+	
+}
+if(n==q)
+{
+	System.out.println("it is a neno number");
+}
+else
+{
+	System.out.println("it is not a neno number");
+}	
+}
+}
