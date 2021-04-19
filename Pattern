@@ -1,0 +1,55 @@
+class Pattern
+{
+public static void main(String[]args)
+{
+	int n =3;
+	int k =3;
+	int l=3;
+for(int i=1;i<=4;i++)
+	
+	{
+		
+		for(int m=1;m<=n;m++)
+		{
+			System.out.print(" ");
+		}
+		n--;
+		for(int j=i;j>=1;j--)
+		{
+			System.out.print(j);
+		}
+		
+	
+		
+		for(int m=2;m<=i;m++)
+		{
+			System.out.print(m);
+		}
+		System.out.println();
+	
+	}
+	for(int i=1;i<=3;i++)
+	
+	{
+		
+		for(int m=1;m<=i;m++)
+		{
+			System.out.print(" ");
+		}
+		
+		for(int j=k;j>=1;j--)
+		{
+			System.out.print(j);
+		}
+		k--;
+	
+	for(int m=2;m<=l;m++)
+		{
+			System.out.print(m);
+		}
+		l--;
+		System.out.println();
+	
+ }
+}
+}
